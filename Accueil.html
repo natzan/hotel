@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+			<title>
+				Accueil
+			</title>
+		<link rel="stylesheet" href="fiche_style.css"/>
+	</head>
+	
+	<body>
+		<!--################################
+					Cache-misère
+		################################-->
+		<table class="bandeau">
+		<tr>
+		<td>
+			<h1 class="bandeau">
+				<a href="Accueil.html" class="bandeau">
+					Le Bristol Paris
+				</a>
+			</h1>
+		</td>
+		</tr>
+		</table>
+		
+		<!--################################
+				Formulaie de recherche
+		################################-->
+		<h1>
+			Recherche
+		</h1>
+		<table>
+			<form method="get" action="rechercheReservation/traitement-recherche.php">
+				<tr>
+					<td>
+						<label>
+							Date d'arrivée
+						</label>
+					</td>
+					<td>
+						<input type="text" id="date_arrivee" name="date_arrivee" placeholder="AAAA/MM/JJ" required />
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>
+							Date de départ
+						</label>
+					</td>
+					<td>
+						<input type="text" id="date_depart" name="date_depart" placeholder="AAAA/MM/JJ" required />
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>
+							Nombre de place
+						</label>
+					</td>
+					<td>
+						<input type="number" id="place" name="place" min="1" max="5" step="1" />
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+						<input type="submit" value="Rechercher"/>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>
