@@ -15,3 +15,5 @@ A terme, ca projet incluera les éléments suivants :
 ## FONCTIONNEMENT
 
 Pour pouvoir travailler avec les nouvelles fonctionnalités développées, téléchargez le dossier 'Hotel' et lorsque vous aurez fini, uploadez vos modification directement dans les fichiers téléchargés précédemment.
+
+Vous pouvez trouver la base de données dans le fichier 'Hotel.sql'.
