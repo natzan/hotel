@@ -17,3 +17,6 @@ A terme, ca projet incluera les éléments suivants :
 Pour pouvoir travailler avec les nouvelles fonctionnalités développées, téléchargez le dossier `Hotel` et lorsque vous aurez fini, uploadez vos modification directement dans les fichiers téléchargés précédemment.
 
 Vous pouvez trouver la base de données dans le fichier `Hotel.sql`.
+
+Si vous ne possédez pas xampp, voici le lien de téléchargement : https://www.apachefriends.org/xampp-files/7.3.28/xampp-windows-x64-7.3.28-1-VC15-installer.exe
+Le fichier xampp est à mettre à la racine de votre disque C.
